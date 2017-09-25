@@ -1,6 +1,5 @@
 import 'isomorphic-fetch'
-import {API_HOST} from '../common/constants'
-
+export const API_HOST = 'http://localhost:8000/api'
 
 export default function callApi(endpoint, _headers, body, method = 'get') {
   const fullUrl = (endpoint.indexOf(API_HOST) === -1) ? API_HOST + endpoint : endpoint

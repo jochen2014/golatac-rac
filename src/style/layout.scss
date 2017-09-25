@@ -1,0 +1,33 @@
+$background-color:rgba(0,0,0,0.87);
+$color:rgba(255,255,255,0.8);
+
+.activeMenuItem{
+    color:white !important;
+}
+.contentAndFooter{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    min-height:100vh;
+}
+.footer {
+    color:$color;
+    background-color:$background-color;
+    text-align: center;
+    padding-top: 5px;
+    box-sizing: border-box;
+}
+
+.form-group{
+    select{
+        height: 30px;
+        min-width:200px;
+    }
+}
+
+.car-image{
+    display: block;
+    margin:0 auto;
+    width:600px;
+    height:400px;
+}
